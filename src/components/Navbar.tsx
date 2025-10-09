@@ -75,7 +75,7 @@ export default function Navbar() {
                 onClick={() => scrollToSection(item.id)}
                 className={`px-4 py-2 rounded-lg transition-all duration-300 ${
                   activeSection === item.id
-                    ? 'text-blue-600 dark:text-cyan-400 bg-blue-50 dark:bg-blue-900/20'
+                    ? 'text-blue-600 dark:text-cyan-400 bg-blue-50 dark:bg-blue-900/20 '
                     : 'text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-cyan-400'
                 }`}
               >

@@ -29,11 +29,11 @@ export default function Hero() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center space-y-8">
           <div className="relative inline-block">
-            <div className="w-40 h-40 mx-auto rounded-full bg-gradient-to-br from-blue-600 to-cyan-600 p-1 animate-pulse-slow">
+            {/* <div className="w-40 h-40 mx-auto rounded-full bg-gradient-to-br from-blue-600 to-cyan-600 p-1 animate-pulse-slow">
               <div className="w-full h-full rounded-full bg-gray-300 dark:bg-gray-700 flex items-center justify-center text-6xl font-bold text-gray-600 dark:text-gray-400">
                 KM
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="space-y-4">
