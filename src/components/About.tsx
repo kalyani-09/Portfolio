@@ -1,5 +1,7 @@
 import { Code2, Palette, Rocket, Users } from 'lucide-react';
 import { motion } from "framer-motion";
+import profile from "../assets/Web_Photo_Editor.jpg";
+
 
 export default function About() {
   const highlights = [
@@ -65,7 +67,7 @@ export default function About() {
               <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-800 flex items-center justify-center overflow-hidden">
                 <img
                   // src="./src/assets/Web_Photo_Editor.jpg"
-                  src="src/assets/Web_Photo_Editor (1) (1).jpg"
+                  src={profile}
                   alt="No image found"
                   className="w-full h-full object-contain object-center rounded-2xl"
                 />
