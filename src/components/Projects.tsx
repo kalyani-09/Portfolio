@@ -1,4 +1,7 @@
 import { ExternalLink, Github } from 'lucide-react';
+import image1 from "../assets/image1.png";
+import welth from "../assets/Welth.png";
+import logo from "../assets/logo.png";
 
 export default function Projects() {
   const projects = [
@@ -7,17 +10,27 @@ export default function Projects() {
       title: 'WELTH',
       description:
         'An AI Powered financial management platform that helps you track , analyze, and optimize your spending with real-time insights',
-      image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: welth,
       tags: ['Next JS','Tailwind CSS','Gemini AI','Prisma','Shadcn UI'],
       liveUrl: 'https://welth-ai-finance-app-eight.vercel.app/',
       githubUrl: 'https://github.com/kalyani-09/WELTH---AI-Finance-APP.git',
       gradient: 'from-purple-600 to-pink-600',
     },
+      {
+      title: 'Virtual Assistant',
+      description:
+        'Designed and deployed a virtual assistant application with real-time communication, voice features, and user-specific customization.',
+      image: image1,
+      tags: [ 'ReactJS', 'Tailwind CSS', 'Gemini AI', 'MongoDB', 'Express'],
+      liveUrl: 'https://virtualassistantfrontend-nnvc.onrender.com',
+      githubUrl: 'https://github.com/kalyani-09/Virtual-Assistant.git',
+      gradient: 'from-orange-600 to-red-600',
+    },
     {
       title: 'PostPal',
       description:
         'MERN stack social media platform with full functionalit including sign up, sign in , profile picture updates, creating posts, exploring user profiles, following users,liking and commneting on posts',
-      image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: logo,
       tags: ['Node JS','React JS','Express JS','MongoDB'],
       liveUrl: 'https://postpal-11-frontend.onrender.com/',
       githubUrl: 'https://github.com/kalyani-09/PostPal.git',
@@ -33,16 +46,7 @@ export default function Projects() {
       githubUrl: 'https://github.com/kalyani-09',
       gradient: 'from-blue-600 to-cyan-600',
     },
-    {
-      title: 'AirBnB Clone',
-      description:
-        'Full-stack AirBnB clone with listings, authentication , reservations and reviews using MERN stack and styled with Bootstrap',
-      image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['MongoDB', 'Express JS', 'React JS', 'Node JS','Bootstrap'],
-      liveUrl: 'https://github.com/kalyani-09/Air_BnB.git',
-      githubUrl: 'https://github.com/kalyani-09/Air_BnB.git',
-      gradient: 'from-orange-600 to-red-600',
-    },
+  
     
   ];
 
